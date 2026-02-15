@@ -29,7 +29,7 @@ const config = {
   organizationName: 'yang-blog-0520', // Usually your GitHub org/user name.
   projectName: 'my-blog', // Usually your repo name.
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
 
 
   // 設定語系為繁體中文
