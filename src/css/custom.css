@@ -29,4 +29,7 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
-
+/* 隱藏歷史文章頁面所有重複標題 */
+.theme-blog-archive-page article header {
+  display: none;
+}
