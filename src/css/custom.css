@@ -38,5 +38,9 @@
 
 /* 調整間距 */
 .theme-blog-archive-page .margin-bottom--lg {
-  margin-bottom: 0 !important;
+  margin-botto
+  /* 隱藏歷史文章頁面所有重複標題 */
+.theme-blog-archive-page article header {
+  display: none;
+}m: 0 !important;
 }
