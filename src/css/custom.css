@@ -17,6 +17,10 @@
   /* 程式碼區塊字型 */
   --ifm-code-font-size: 95%;
   
+  /* 文字顏色 */
+  --ifm-font-color-base: #1c1e21;
+  --ifm-heading-color: #1c1e21;
+  
   /* 背景色 */
   --ifm-background-color: #ffffff;
   
@@ -40,6 +44,10 @@
   --ifm-color-primary-lighter: #32d8b4;
   --ifm-color-primary-lightest: #4fddbf;
   
+  /* 文字顏色 - 暗色模式下文字要亮色 */
+  --ifm-font-color-base: #e3e3e3;
+  --ifm-heading-color: #ffffff;
+  
   /* 背景色 */
   --ifm-background-color: #1b1b1d;
   
@@ -48,6 +56,58 @@
   
   /* 頁尾 */
   --ifm-footer-background-color: #1e1e1e;
+}
+
+/* ==================== 強制文字顏色（修正深色模式問題） ==================== */
+
+/* 亮色模式：深色文字 */
+:root {
+  color: #1c1e21;
+}
+
+/* 暗色模式：亮色文字 */
+[data-theme='dark'] {
+  color: #e3e3e3;
+}
+
+/* 文章標題 */
+article h1,
+article h2,
+article h3,
+article h4,
+article h5,
+article h6 {
+  color: var(--ifm-heading-color) !important;
+}
+
+/* 文章內容 */
+article p,
+article li,
+article span,
+article div {
+  color: var(--ifm-font-color-base) !important;
+}
+
+/* 作者資訊 */
+.avatar__name,
+.avatar__subtitle {
+  color: var(--ifm-font-color-base) !important;
+}
+
+/* 日期和閱讀時間 */
+.margin-vert--md time,
+.margin-vert--md span {
+  color: var(--ifm-font-color-base) !important;
+}
+
+/* 標籤 */
+.badge {
+  color: inherit !important;
+}
+
+/* 確保摘要文字可見 */
+.text--truncate {
+  color: var(--ifm-font-color-base) !important;
 }
 
 /* ==================== 自訂樣式 ==================== */
@@ -95,4 +155,13 @@ code {
 
 ::-webkit-scrollbar-thumb:hover {
   background: var(--ifm-color-primary-dark);
+}
+
+/* 確保連結在深色模式下可見 */
+[data-theme='dark'] a {
+  color: var(--ifm-color-primary-lighter);
+}
+
+[data-theme='dark'] a:hover {
+  color: var(--ifm-color-primary-lightest);
 }
