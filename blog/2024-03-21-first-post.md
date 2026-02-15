@@ -1,7 +1,7 @@
 ---
 slug: first-post
 title: 我的第一篇 Docusaurus 文章
-authors: [Yang]
+authors: [yang]
 tags: [心情, 技術]
 date: 2024-03-21
 ---
