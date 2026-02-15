@@ -90,7 +90,7 @@ const config = {
         items: [
           // 左側導覽
           {to: '/tags', label: '標籤', position: 'left'},
-          {to: '/archive', label: '歸檔', position: 'left'},
+          {to: '/archive', label: '歷史文章', position: 'left'},
           
           // 右側導覽
           {
@@ -107,7 +107,7 @@ const config = {
             title: '站內連結',
             items: [
               { label: '首頁', to: '/' },
-              { label: '歸檔', to: '/archive' },
+              { label: '歷史文章', to: '/archive' },
               { label: '標籤', to: '/tags' },
             ],
           },
