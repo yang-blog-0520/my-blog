@@ -28,3 +28,15 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+/* ==================== 隱藏歷史文章頁面的重複標題 ==================== */
+
+/* 隱藏歷史文章頁面的副標題（保留主標題） */
+.theme-blog-archive-page header > p {
+  display: none;
+}
+
+/* 調整間距 */
+.theme-blog-archive-page .margin-bottom--lg {
+  margin-bottom: 0 !important;
+}
