@@ -10,7 +10,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: '我的部落格', // 這裡改成你的網站標題
+  title: 'ChiaYang Blog',
   tagline: '紀錄與分享', 
   favicon: 'img/favicon.ico',
 
@@ -20,14 +20,14 @@ const config = {
   },
 
   // Set the production url of your site here
-  url: 'https://你的網域.com', // 例如 https://wiwi.blog
+  url: 'https://chiayang.blog',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
   // GitHub pages deployment config.
-  organizationName: '你的GitHub帳號', // Usually your GitHub org/user name.
-  projectName: '你的Repo名稱', // Usually your repo name.
+  organizationName: 'yang-blog-0520', // Usually your GitHub org/user name.
+  projectName: 'my-blog', // Usually your repo name.
 
   onBrokenLinks: 'throw',
 
@@ -58,7 +58,7 @@ const config = {
             xslt: true,
           },
           // 移除這行如果你不想顯示 "編輯此頁"
-          // editUrl: 'https://github.com/你的帳號/你的Repo/tree/main/',
+          // editUrl: 'https://github.com/yang-blog-0520/my-blog/tree/main/',
           
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -82,27 +82,26 @@ const config = {
         respectPrefersColorScheme: true,
       },
       navbar: {
-        title: '我的部落格',
+        title: 'ChiaYang Blog',
         logo: {
           alt: 'Site Logo',
-          src: 'img/logo.svg', // 記得確認 static/img/ 資料夾下是否有此圖片
+          src: 'img/logo.svg',
         },
         items: [
           // 左側導覽
-          // 因為 routeBasePath: '/'，所以點擊 Logo 就會回首頁看文章，這裡可以放分類或標籤
           {to: '/tags', label: '標籤', position: 'left'},
           {to: '/archive', label: '歸檔', position: 'left'},
           
           // 右側導覽
           {
-            href: 'https://github.com/你的GitHub帳號',
+            href: 'https://github.com/yang-blog-0520',
             label: 'GitHub',
             position: 'right',
           },
         ],
       },
       footer: {
-        style: 'light', // 改成 light 可能比較像一般部落格風格，也可改回 dark
+        style: 'light',
         links: [
           {
             title: '站內連結',
@@ -117,13 +116,13 @@ const config = {
             items: [
               {
                 label: 'GitHub',
-                href: 'https://github.com/你的GitHub帳號',
+                href: 'https://github.com/yang-blog-0520',
               },
               // 可以在這裡加 Facebook, Twitter 等
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Blog. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} ChiaYang Blog. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,
