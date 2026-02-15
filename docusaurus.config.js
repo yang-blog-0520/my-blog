@@ -90,8 +90,8 @@ const config = {
       navbar: {
         title: 'ChiaYang Blog',
         logo: {
-          alt: 'Site Logo',
-          src: 'img/logo.svg',
+          alt: 'ChiaYang Blog Logo',
+          src: 'img/logo.png',  // ← 改成 logo.png
         },
         items: [
           // 左側導覽
