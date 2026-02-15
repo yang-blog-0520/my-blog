@@ -48,11 +48,17 @@ const config = {
         
         // 2. 設定 Blog
         blog: {
-          routeBasePath: '/', // 重要：將部落格設為首頁
+          routeBasePath: 'blog', // 部落格在 /blog 路徑
           showReadingTime: true,
           // 設定側邊欄顯示的文章數量，'ALL' 顯示全部，或設為數字 (例如 5)
           blogSidebarCount: 'ALL', 
           blogSidebarTitle: '所有文章',
+          
+          // 歸檔頁面設定
+          archiveBasePath: 'archive',
+          blogTitle: '歷史文章',
+          blogDescription: '',  // 移除副標題，避免重複顯示
+          
           feedOptions: {
             type: ['rss', 'atom'],
             xslt: true,
@@ -89,6 +95,7 @@ const config = {
         },
         items: [
           // 左側導覽
+          {to: '/blog', label: '文章', position: 'left'},
           {to: '/tags', label: '標籤', position: 'left'},
           {to: '/archive', label: '歷史文章', position: 'left'},
           
@@ -107,6 +114,7 @@ const config = {
             title: '站內連結',
             items: [
               { label: '首頁', to: '/' },
+              { label: '文章', to: '/blog' },
               { label: '歷史文章', to: '/archive' },
               { label: '標籤', to: '/tags' },
             ],
