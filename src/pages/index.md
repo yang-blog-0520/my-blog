@@ -6,14 +6,14 @@ hide_table_of_contents: true
 
 <div style={{position: 'relative', marginBottom: '3rem', marginTop: '-2rem'}}>
   <img 
-    src="/img/welcome-banner.png" 
+    src="/img/welcome-banner.jpg" 
     alt="歡迎來到 ChiaYang Blog" 
     style={{
       width: '100%',
       maxHeight: '500px',
       objectFit: 'cover',
       borderRadius: '15px',
-      boxShadow: '0 8px 16px rgba(0,0,0,0.2)'
+      boxShadow: '0 8px 16px rgba(0,0,0,0.2)',
     }} 
   />
   <div style={{
@@ -44,7 +44,6 @@ hide_table_of_contents: true
 
 **你可能會感興趣的主題：**
 - 🔬 量子資訊研究
-- 💻 技術學習心得  
 - 📖 閱讀與思考
 - 🌊 生活紀錄
 
@@ -93,7 +92,6 @@ hide_table_of_contents: true
 ### 🔗 更多連結
 
 - [GitHub](https://github.com/yang-blog-0520)
-- [RSS 訂閱](/blog/rss.xml)
 
 </div>
 
