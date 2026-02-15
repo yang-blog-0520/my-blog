@@ -1,41 +1,24 @@
 /**
- * 自訂 CSS 變數
- * 可以覆蓋 Docusaurus 的預設樣式
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
  */
 
-/* ==================== 亮色模式 (Light Mode) ==================== */
+/* You can override the default Infima variables here. */
 :root {
-  /* 主色調 - 用於連結、按鈕等 */
-  --ifm-color-primary: #2e8555;
+  --ifm-color-primary: #29784c;
   --ifm-color-primary-dark: #29784c;
   --ifm-color-primary-darker: #277148;
   --ifm-color-primary-darkest: #205d3b;
   --ifm-color-primary-light: #33925d;
   --ifm-color-primary-lighter: #359962;
   --ifm-color-primary-lightest: #3cad6e;
-  
-  /* 程式碼區塊字型 */
   --ifm-code-font-size: 95%;
-  
-  /* 文字顏色 */
-  --ifm-font-color-base: #1c1e21;
-  --ifm-heading-color: #1c1e21;
-  
-  /* 背景色 */
-  --ifm-background-color: #ffffff;
-  
-  /* 導航欄 */
-  --ifm-navbar-background-color: #1e1e1e;
-  --ifm-navbar-link-color: #ffffff;
-  
-  /* 頁尾 */
-  --ifm-footer-background-color: #303846;
-  --ifm-footer-color: #ffffff;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
-/* ==================== 暗色模式 (Dark Mode) ==================== */
+/* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  /* 主色調 - 暗色模式下的顏色 */
   --ifm-color-primary: #25c2a0;
   --ifm-color-primary-dark: #21af90;
   --ifm-color-primary-darker: #1fa588;
@@ -43,125 +26,5 @@
   --ifm-color-primary-light: #29d5b0;
   --ifm-color-primary-lighter: #32d8b4;
   --ifm-color-primary-lightest: #4fddbf;
-  
-  /* 文字顏色 - 暗色模式下文字要亮色 */
-  --ifm-font-color-base: #e3e3e3;
-  --ifm-heading-color: #ffffff;
-  
-  /* 背景色 */
-  --ifm-background-color: #1b1b1d;
-  
-  /* 導航欄 */
-  --ifm-navbar-background-color: #1e1e1e;
-  
-  /* 頁尾 */
-  --ifm-footer-background-color: #1e1e1e;
-}
-
-/* ==================== 強制文字顏色（修正深色模式問題） ==================== */
-
-/* 亮色模式：深色文字 */
-:root {
-  color: #1c1e21;
-}
-
-/* 暗色模式：亮色文字 */
-[data-theme='dark'] {
-  color: #e3e3e3;
-}
-
-/* 文章標題 */
-article h1,
-article h2,
-article h3,
-article h4,
-article h5,
-article h6 {
-  color: var(--ifm-heading-color) !important;
-}
-
-/* 文章內容 */
-article p,
-article li,
-article span,
-article div {
-  color: var(--ifm-font-color-base) !important;
-}
-
-/* 作者資訊 */
-.avatar__name,
-.avatar__subtitle {
-  color: var(--ifm-font-color-base) !important;
-}
-
-/* 日期和閱讀時間 */
-.margin-vert--md time,
-.margin-vert--md span {
-  color: var(--ifm-font-color-base) !important;
-}
-
-/* 標籤 */
-.badge {
-  color: inherit !important;
-}
-
-/* 確保摘要文字可見 */
-.text--truncate {
-  color: var(--ifm-font-color-base) !important;
-}
-
-/* ==================== 自訂樣式 ==================== */
-
-/* 導航欄樣式 */
-.navbar {
-  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
-}
-
-/* 連結懸停效果 */
-.navbar__link:hover {
-  color: var(--ifm-color-primary-lighter);
-}
-
-/* 文章卡片樣式 */
-.card {
-  border-radius: 8px;
-  transition: transform 0.2s;
-}
-
-.card:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-/* 程式碼區塊 */
-code {
-  border-radius: 4px;
-  padding: 0.2rem 0.4rem;
-}
-
-/* 滾動條美化 (僅 Webkit 瀏覽器) */
-::-webkit-scrollbar {
-  width: 10px;
-}
-
-::-webkit-scrollbar-track {
-  background: var(--ifm-background-color);
-}
-
-::-webkit-scrollbar-thumb {
-  background: var(--ifm-color-primary);
-  border-radius: 5px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: var(--ifm-color-primary-dark);
-}
-
-/* 確保連結在深色模式下可見 */
-[data-theme='dark'] a {
-  color: var(--ifm-color-primary-lighter);
-}
-
-[data-theme='dark'] a:hover {
-  color: var(--ifm-color-primary-lightest);
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
