@@ -30,7 +30,7 @@ const config = {
   projectName: '你的Repo名稱', // Usually your repo name.
 
   onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+
 
   // 設定語系為繁體中文
   i18n: {
