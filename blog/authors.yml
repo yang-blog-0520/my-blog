@@ -1,12 +1,7 @@
 # 這裡定義你的作者代號，例如 "yang" 或 "me"
-yang:
+Yang:
   name: yang
   title: 網站擁有者
   url: https://github.com/yang-blog-0520
   image_url: https://github.com/yang-blog-0520.png
 
-Yang:  # 多加這個大寫的，防呆
-  name: Yang
-  title: 網站擁有者
-  url: https://github.com/yang-blog-0520
-  image_url: https://github.com/yang-blog-0520.png
