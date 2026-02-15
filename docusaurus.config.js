@@ -96,8 +96,8 @@ const config = {
         items: [
           // 左側導覽
           {to: '/blog', label: '文章', position: 'left'},
-          {to: '/tags', label: '標籤', position: 'left'},
-          {to: '/archive', label: '歷史文章', position: 'left'},
+          {to: '/blog/tags', label: '標籤', position: 'left'},
+          {to: '/blog/archive', label: '歷史文章', position: 'left'},
           
           // 右側導覽
           {
@@ -115,8 +115,8 @@ const config = {
             items: [
               { label: '首頁', to: '/' },
               { label: '文章', to: '/blog' },
-              { label: '歷史文章', to: '/archive' },
-              { label: '標籤', to: '/tags' },
+              { label: '歷史文章', to: '/blog/archive' },
+              { label: '標籤', to: '/blog/tags' },
             ],
           },
           {
