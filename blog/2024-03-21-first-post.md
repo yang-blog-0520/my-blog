@@ -1,9 +1,8 @@
 ---
 slug: first-post
-title: 我的第一篇 Docusaurus 文章
-authors: [yang]
-tags: [心情, 技術]
-date: 2024-03-21
+title: 我的第一篇文章
+authors: [yang]   # ← 這裡也用小寫，要跟 authors.yml 的 key 一致
+tags: [hello]
 ---
 
 這是摘要，會顯示在列表頁。

@@ -1,7 +1,5 @@
-# 這裡定義你的作者代號，例如 "yang" 或 "me"
-Yang:
-  name: yang
-  title: 網站擁有者
+yang:           # ← 這裡用小寫
+  name: Yang    # ← 這裡可以用大寫（顯示名稱）
+  title: 部落格作者
   url: https://github.com/yang-blog-0520
   image_url: https://github.com/yang-blog-0520.png
-
