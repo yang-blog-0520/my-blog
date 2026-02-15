@@ -12,7 +12,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'ChiaYang Blog',
   tagline: '紀錄與分享', 
-  favicon: 'img/favicon.ico',
+  favicon: 'img/favicon-transparent.png',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -91,7 +91,7 @@ const config = {
         title: 'ChiaYang Blog',
         logo: {
           alt: 'ChiaYang Blog Logo',
-          src: 'img/logo.png',  // ← 改成 logo.png
+          src: 'img/logo-transparent.png',
         },
         items: [
           // 左側導覽
