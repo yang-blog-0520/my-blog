@@ -180,12 +180,14 @@ code {
 
 /* ==================== 文章頁面優化 ==================== */
 
+/* ==================== 文章頁面優化 ==================== */
+
 /* 縮小文章詳細頁面的標題字體 - 使用更強的選擇器 */
 article header h1,
 .markdown h1,
 .theme-doc-markdown h1,
 article.margin-vert--lg h1 {
-  font-size: 1.8rem !important;  /* 更小的標題 */
+  font-size: 1.5rem !important;  /* 修改為更小的標題 */
   line-height: 1.3 !important;
   margin-bottom: 1rem !important;
 }
@@ -193,9 +195,10 @@ article.margin-vert--lg h1 {
 /* 縮小文章列表頁的標題 */
 .blog-post-title,
 h2.blog-post-title {
-  font-size: 1.5rem !important;
+  font-size: 1.3rem !important;  /* 修改為更小的標題 */
   line-height: 1.3 !important;
 }
+
 
 /* 隱藏作者資訊（頭貼和名稱） */
 .avatar,
