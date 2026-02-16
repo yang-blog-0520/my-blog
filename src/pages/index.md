@@ -44,6 +44,7 @@ hide_table_of_contents: true
 
 **你可能會感興趣的主題：**
 - 🔬 量子資訊研究
+- 💻 技術學習心得  
 - 📖 閱讀與思考
 - 🌊 生活紀錄
 
@@ -91,22 +92,8 @@ hide_table_of_contents: true
 
 ### 🔗 更多連結
 
-- [GitHub](https://github.com/yang-blog-0520)
+- [GitHub](https://github.com/Anderson991288)
 
 </div>
 
-</div>
-
----
-
-<div style={{
-  textAlign: 'center',
-  marginTop: '4rem',
-  padding: '2rem',
-  background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
-  borderRadius: '15px',
-  color: 'white'
-}}>
-  <h3 style={{color: 'white', marginTop: 0}}>✨ 感謝你的來訪</h3>
-  <p style={{color: '#e3e3e3', marginBottom: 0}}>希望你在這裡能找到有趣或有用的內容</p>
 </div>
