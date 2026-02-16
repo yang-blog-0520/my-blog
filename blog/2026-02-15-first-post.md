@@ -6,10 +6,10 @@ tags: [hello]
 date: 2026-02-15  # ← 加這行
 ---
 
-這是摘要，會顯示在列表頁!
+Hello!
 
 <!-- truncate -->
 
-這是點進去才看得到的內容。
+test123!
 Docusaurus 支援 React 元件，例如：
 <button onClick={() => alert('Hello!')}>點我試試</button>
