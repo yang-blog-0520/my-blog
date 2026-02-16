@@ -16,7 +16,7 @@ hide_table_of_contents: true
       boxShadow: '0 8px 16px rgba(0,0,0,0.2)',
     }} 
   />
-  <div style={{
+  <div className="hero-banner-text" style={{
     position: 'absolute',
     bottom: '30px',
     left: '50%',
@@ -24,11 +24,10 @@ hide_table_of_contents: true
     background: 'rgba(0,0,0,0.6)',
     padding: '1rem 2rem',
     borderRadius: '10px',
-    color: 'white',
     textAlign: 'center'
   }}>
-    <h1 style={{color: 'white', margin: 0, fontSize: '2.5rem'}}>ChiaYang Blog</h1>
-    <p style={{color: '#e3e3e3', margin: '0.5rem 0 0 0'}}>紀錄與分享</p>
+    <h1 className="hero-title" style={{margin: 0, fontSize: '2.5rem'}}>ChiaYang Blog</h1>
+    <p className="hero-subtitle" style={{margin: '0.5rem 0 0 0'}}>紀錄與分享</p>
   </div>
 </div>
 

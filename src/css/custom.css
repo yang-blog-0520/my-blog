@@ -212,3 +212,37 @@ article > header > h2,
 .avatar__subtitle {
   display: none !important;
 }
+
+/* ==================== 頁尾樣式 ==================== */
+
+/* 確保頁尾文字在亮色模式下清晰可見 */
+.footer {
+  background-color: var(--ifm-footer-background-color) !important;
+}
+
+.footer__copyright,
+.footer__link-item,
+.footer__title {
+  color: #ffffff !important;
+}
+
+/* 暗色模式下也保持白色 */
+[data-theme='dark'] .footer__copyright,
+[data-theme='dark'] .footer__link-item,
+[data-theme='dark'] .footer__title {
+  color: #ffffff !important;
+}
+
+/* ==================== 首頁橫幅文字樣式 ==================== */
+
+/* 確保橫幅文字在亮色和暗色模式下都是白色 */
+.hero-title,
+.hero-subtitle {
+  color: #ffffff !important;
+}
+
+/* 暗色模式 */
+[data-theme='dark'] .hero-title,
+[data-theme='dark'] .hero-subtitle {
+  color: #ffffff !important;
+}
