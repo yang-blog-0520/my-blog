@@ -99,12 +99,7 @@ const config = {
           {to: '/blog/tags', label: '標籤', position: 'left'},
           {to: '/blog/archive', label: '歷史文章', position: 'left'},
           
-          // 右側導覽
-          {
-            href: 'https://github.com/yang-blog-0520',
-            label: 'GitHub',
-            position: 'right',
-          },
+          // 右側導覽已移除 GitHub
         ],
       },
       footer: {
