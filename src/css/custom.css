@@ -127,6 +127,30 @@ article div {
   color: #ffffff !important;
 }
 
+/* 主題切換按鈕 - 確保在亮色和暗色模式下都清晰可見 */
+.navbar__toggle,
+button[class*="toggle"],
+button[class*="colorMode"],
+.clean-btn.navbar__item {
+  color: #ffffff !important;
+  opacity: 1 !important;
+}
+
+/* 主題切換按鈕的 SVG 圖示 */
+.navbar__toggle svg,
+button[class*="toggle"] svg,
+button[class*="colorMode"] svg {
+  fill: #ffffff !important;
+  color: #ffffff !important;
+}
+
+/* 懸停效果 */
+.navbar__toggle:hover,
+button[class*="toggle"]:hover,
+button[class*="colorMode"]:hover {
+  background-color: rgba(255, 255, 255, 0.1) !important;
+}
+
 /* 連結懸停效果 */
 .navbar__link:hover {
   color: var(--ifm-color-primary-lighter);
