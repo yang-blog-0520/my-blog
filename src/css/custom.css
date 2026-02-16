@@ -117,6 +117,16 @@ article div {
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
 }
 
+/* 導航欄標題（Logo 旁邊的文字）固定為白色 */
+.navbar__title {
+  color: #ffffff !important;
+}
+
+/* 暗色模式下也是白色 */
+[data-theme='dark'] .navbar__title {
+  color: #ffffff !important;
+}
+
 /* 連結懸停效果 */
 .navbar__link:hover {
   color: var(--ifm-color-primary-lighter);
