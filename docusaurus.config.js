@@ -122,11 +122,7 @@ const config = {
               {
                 label: 'RSS 訂閱',
                 href: 'https://chiayang.blog/blog/rss.xml',
-              },
-              {
-                label: 'Atom 訂閱',
-                href: 'https://chiayang.blog/blog/atom.xml',
-              },
+              }
             ],
           },
         ],
