@@ -57,6 +57,7 @@ const config = {
           // 歸檔頁面設定
           archiveBasePath: 'archive',
           blogTitle: '歷史文章',
+          sortPosts: 'descending',
           
           feedOptions: {
             type: ['rss', 'atom'],
@@ -122,7 +123,11 @@ const config = {
               {
                 label: 'RSS 訂閱',
                 href: 'https://chiayang.blog/blog/rss.xml',
-              }
+              },
+              {
+                label: 'Atom 訂閱',
+                href: 'https://chiayang.blog/blog/atom.xml',
+              },
             ],
           },
         ],
