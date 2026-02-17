@@ -3,6 +3,9 @@
  * 可以覆蓋 Docusaurus 的預設樣式
  */
 
+/* ==================== 載入 Google Fonts ==================== */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
 /* ==================== 亮色模式 (Light Mode) ==================== */
 :root {
   /* 主色調 - 用於連結、按鈕等 */
@@ -120,6 +123,9 @@ article div {
 /* 導航欄標題（Logo 旁邊的文字）固定為白色 */
 .navbar__title {
   color: #ffffff !important;
+  font-family: 'Dancing Script', cursive !important;
+  font-size: 1.6rem !important;
+  font-weight: 700 !important;
 }
 
 /* 暗色模式下也是白色 */
