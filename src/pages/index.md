@@ -83,9 +83,8 @@ hide_table_of_contents: true
 
 <div>
 
-### 🔗 更多連結
+### 🔗 我的E-mail
 
-- [GitHub](https://github.com/Anderson991288)
 - 📧 aadd0520@proton.me
 
 </div>
