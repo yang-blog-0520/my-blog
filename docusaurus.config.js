@@ -57,13 +57,12 @@ const config = {
           // 歸檔頁面設定
           archiveBasePath: 'archive',
           blogTitle: '歷史文章',
-          blogDescription: '',  // 移除副標題，避免重複顯示
           
           feedOptions: {
             type: ['rss', 'atom'],
             xslt: true,
             title: 'ChiaYang Blog',
-            description: '記錄與分享',
+            description: '紀錄與分享',
           },
           // 移除這行如果你不想顯示 "編輯此頁"
           // editUrl: 'https://github.com/yang-blog-0520/my-blog/tree/main/',
@@ -123,7 +122,11 @@ const config = {
               {
                 label: 'RSS 訂閱',
                 href: 'https://chiayang.blog/blog/rss.xml',
-              }
+              },
+              {
+                label: 'Atom 訂閱',
+                href: 'https://chiayang.blog/blog/atom.xml',
+              },
             ],
           },
         ],

@@ -208,15 +208,10 @@ code {
 
 /* ==================== 隱藏歷史文章頁面的重複標題 ==================== */
 
-.theme-blog-archive-page header > p,
-.theme-blog-archive-page header > h2,
-.theme-blog-archive-page .hero__subtitle {
+.theme-blog-archive-page .hero__subtitle,
+.theme-blog-archive-page header p,
+.theme-blog-archive-page .hero.hero--primary p {
   display: none !important;
-}
-
-/* 調整間距 */
-.theme-blog-archive-page .margin-bottom--lg {
-  margin-bottom: 0 !important;
 }
 
 /* ==================== 縮小文章標題（最重要！） ==================== */
