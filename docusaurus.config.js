@@ -63,7 +63,7 @@ const config = {
             type: ['rss', 'atom'],
             xslt: true,
             title: 'ChiaYang Blog',
-            description: '紀錄與分享',
+            description: '記錄與分享',
           },
           // 移除這行如果你不想顯示 "編輯此頁"
           // editUrl: 'https://github.com/yang-blog-0520/my-blog/tree/main/',
