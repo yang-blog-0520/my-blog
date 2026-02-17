@@ -98,6 +98,7 @@ const config = {
           {to: '/blog', label: '文章', position: 'left'},
           {to: '/blog/tags', label: '標籤', position: 'left'},
           {to: '/blog/archive', label: '歷史文章', position: 'left'},
+          {to: '/about', label: '關於我', position: 'left'},
           
           // 右側導覽已移除 GitHub
         ],
@@ -120,7 +121,11 @@ const config = {
               {
                 label: 'RSS 訂閱',
                 href: 'https://chiayang.blog/blog/rss.xml',
-              }
+              },
+              {
+                label: 'Atom 訂閱',
+                href: 'https://chiayang.blog/blog/atom.xml',
+              },
             ],
           },
         ],
