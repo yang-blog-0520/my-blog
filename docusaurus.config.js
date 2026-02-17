@@ -62,6 +62,7 @@ const config = {
           feedOptions: {
             type: ['rss', 'atom'],
             xslt: true,
+            title: 'ChiaYang Blog',
           },
           // 移除這行如果你不想顯示 "編輯此頁"
           // editUrl: 'https://github.com/yang-blog-0520/my-blog/tree/main/',
