@@ -115,13 +115,16 @@ const config = {
             ],
           },
           {
-            title: '社群',
+            title: '訂閱',
             items: [
               {
-                label: 'GitHub',
-                href: 'https://github.com/Anderson991288',
+                label: 'RSS 訂閱',
+                href: 'https://chiayang.blog/blog/rss.xml',
               },
-              // 可以在這裡加 Facebook, Twitter 等
+              {
+                label: 'Atom 訂閱',
+                href: 'https://chiayang.blog/blog/atom.xml',
+              },
             ],
           },
         ],
