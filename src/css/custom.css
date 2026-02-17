@@ -208,9 +208,7 @@ code {
 
 /* ==================== 隱藏歷史文章頁面的重複標題 ==================== */
 
-.theme-blog-archive-page .hero__subtitle,
-.theme-blog-archive-page header p,
-.theme-blog-archive-page .hero.hero--primary p {
+header.hero.hero--primary div.container p.hero__subtitle {
   display: none !important;
 }
 
