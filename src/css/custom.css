@@ -281,6 +281,13 @@ article > header > h2,
   color: #ffffff !important;
 }
 
+/* Dancing Script 套用到橫幅標題 */
+.hero-title {
+  font-family: 'Dancing Script', cursive !important;
+  font-size: 3rem !important;
+  font-weight: 700 !important;
+}
+
 /* 暗色模式 */
 [data-theme='dark'] .hero-title,
 [data-theme='dark'] .hero-subtitle {
