@@ -212,6 +212,12 @@ header.hero.hero--primary div.container p.hero__subtitle {
   display: none !important;
 }
 
+/* 歷史文章頁面：反轉年份排序（由新到舊） */
+.theme-blog-archive-page main .container > *:last-child {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
 /* ==================== 縮小文章標題（最重要！） ==================== */
 
 /* 縮小單篇文章頁面的 H1 標題 */
